@@ -1,6 +1,6 @@
 .banner{
     height: 100vh;
-    background: url("../../images/banner.jpeg") bottom center;
+    background: url("../images/banner.jpeg") bottom center;
     background-size: cover;
 }
 .benefitsOfYoga-01,.benefitsOfYoga-02,.benefitsOfYoga-03{
@@ -8,13 +8,13 @@
 }
 
 .benefitsOfYoga-01{
-    background: url(../../images/benefitsOfYoga-01.jpeg) center center;
+    background: url("../images/benefitsOfYoga-01.jpeg") center center;
 }
 .benefitsOfYoga-02{
-    background: url(../../images/benefitsOfYoga-02.jpeg) center center;
+    background: url("../images/benefitsOfYoga-02.jpeg") center center;
 }
 .benefitsOfYoga-03{
-    background: url(../../images/benefitsOfYoga-03.jpeg) center center;
+    background: url("../images/benefitsOfYoga-03.jpeg") center center;
 }
 
 
@@ -31,12 +31,12 @@
 }
 
 .topTeaching{
-    background-image:url(../../images/topTeaching.jpeg);
+    background-image:url("../images/topTeaching.jpeg");
     background-position: center center;
 }
 
 .topTeaching-introduce{
-    background-image:url(../../images/topTeaching.jpeg);
+    background-image:url("../images/topTeaching.jpeg");
     background-position: center center;
     height: 100%;
     @media (max-width:768px){
@@ -45,7 +45,7 @@
 }
 
 .topTeaching-modalBasic{
-    background-image:url(../../images/topTeaching.jpeg);
+    background-image:url("../images/topTeaching.jpeg");
     background-position: center center;
     width: 418px;
     height: 418px;
@@ -79,7 +79,7 @@
 }
 
 .relax1{
-    background-image:url(../../images/relax1.jpg);
+    background-image:url("../images/relax1.jpg");
     height: 444px;
     background-position: center center;
     @media (max-width:768px){
@@ -88,12 +88,12 @@
 }
 
 .relax2{
-    background-image:url(../../images/relax2.jpg);
+    background-image:url("../images/relax2.jpg");
     background-position: center center;
 }
 
 .relax3{
-    background-image:url(../../images/relax3.jpg);
+    background-image:url("../images/relax3.jpg");
     background-position: center center;
 }
 
@@ -101,20 +101,20 @@
     height: 207px;
 }
 .course1,.md-course1{
-    background-image:url(../../images/course1.jpg);
+    background-image:url("../images/course1.jpg");
     background-position: center center;
 
 }
 .course2,.md-course2{
-    background-image:url(../../images/course2.jpg);
+    background-image:url("../images/course2.jpg");
     background-position: center center;    
 }
 .course3,.md-course3{
-    background-image:url(../../images/course3.jpg);
+    background-image:url("../images/course3.jpg");
     background-position: center center;  
 }
 .course4,.md-course4{
-    background-image:url(../../images/course4.jpg);
+    background-image:url("../images/course4.jpg");
     background-position: center center;
 }
 
