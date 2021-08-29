@@ -14479,7 +14479,7 @@ h1, .h1 {
 
 .banner {
   height: 100vh;
-  background: url(week8/app/assets/images/banner.jpeg) bottom center;
+  background: url(./assets/images/banner.jpeg) bottom center;
   background-size: cover;
 }
 
@@ -14488,15 +14488,15 @@ h1, .h1 {
 }
 
 .benefitsOfYoga-01 {
-  background: url(/assets/images/benefitsOfYoga-01.jpeg) center center;
+  background: url(./assets/images/benefitsOfYoga-01.jpeg) center center;
 }
 
 .benefitsOfYoga-02 {
-  background: url(/assets/images/benefitsOfYoga-02.jpeg) center center;
+  background: url(./assets/images/benefitsOfYoga-02.jpeg) center center;
 }
 
 .benefitsOfYoga-03 {
-  background: url(/assets/images/benefitsOfYoga-03.jpeg) center center;
+  background: url(./assets/images/benefitsOfYoga-03.jpeg) center center;
 }
 
 .card-img-overlay-height {
