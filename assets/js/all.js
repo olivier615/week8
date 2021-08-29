@@ -1,13 +1,15 @@
-$(function() {
+"use strict";
+
+$(function () {
   console.log('Hello Bootstrap5');
 });
-const swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper", {
   // loop:true,
-  slidesPerView:1,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
-    el:".swiper-pagination",
-    clickable: false,
+    el: ".swiper-pagination",
+    clickable: false
   },
   breakpoints: {
     // when window width is >= 320px
@@ -28,17 +30,16 @@ const swiper = new Swiper(".mySwiper", {
   },
   navigation: {
     nextEl: ".next",
-    prevEl: ".prev",
-  },
+    prevEl: ".prev"
+  }
 });
-
-const swiper2 = new Swiper(".mySwiper2", {
+var swiper2 = new Swiper(".mySwiper2", {
   // loop:true,
-  slidesPerView:1,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
-    el:".swiper-pagination",
-    clickable: false,
+    el: ".swiper-pagination",
+    clickable: false
   },
   breakpoints: {
     // when window width is >= 320px
@@ -60,6 +61,6 @@ const swiper2 = new Swiper(".mySwiper2", {
       slidesPerView: 4,
       spaceBetween: 30
     }
-  },
-
+  }
 });
+//# sourceMappingURL=all.js.map
