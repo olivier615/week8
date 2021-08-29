@@ -1,0 +1,113 @@
+.radius-3{
+    border-radius: 16px;
+}
+
+.bac-no-repeat{
+    background-repeat: no-repeat;
+}
+
+.bac-cover{
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-thumb {
+    border: 16px solid rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #707070;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #C0A4A5;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    border: 15px solid rgba(255, 255, 255, 0);
+  }
+
+
+
+.btn-fill{
+    width: 100%;
+}
+
+.mb-12{
+  margin-bottom: 6rem;
+  @media (max-width:576px){
+    margin-bottom: 5.5rem;
+  }
+}
+  
+
+.icon-finish-size{
+  font-size: 40px;
+}
+
+.fs0875{
+  font-size: .875rem;
+}
+
+.opa-half{
+  opacity: .5;
+}
+
+
+.back-box{
+  width: 100px;
+  height: 100px;
+  background-color: #907A7B;
+  border-radius: 50%;
+}
+
+.z-100{
+  z-index: 100;
+}
+.z-50{
+  z-index: 50;
+}
+
+.h-identical{
+  height: 450px;
+  @media (max-width:576px){
+    height: unset;
+  }
+}
+
+
+.schedule{
+  white-space:nowrap;
+  width: 100%;
+  th, td{
+    border: 1px solid $primary;
+    padding: 8px 8px;
+  }
+  tr td:nth-child(3) { background-color:$info; }
+  tr td:nth-child(5) { background-color:$info; }
+  tr td:nth-child(7) { background-color:$info; }
+  tr td:first-child{
+    padding: 4px 8px;
+    text-align: center;
+  }
+}
+
+.control-bg{
+  min-width: 925px;
+}
+
+
+.hover-light:hover{
+
+    color:#fff !important;
+    transition-duration:.5s;
+
+}
+
+.mySwiper2{
+  .swiper-slide{
+    cursor: pointer;
+  }
+}

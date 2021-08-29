@@ -1,0 +1,75 @@
+---
+title: booking-03
+layout: ./app/layout.ejs
+engine: ejs
+current: booking
+---
+<div class="container mt-8">
+    <h2 class="h3 text-secondary text-center fw-bold mb-3">立即預約</h2>
+    <div class="row mb-5">
+        <div class="col-md-6 offset-md-3 offset-sm-1 col-sm-10 offset-0 col-12 row">
+            <a class="col-4" href="">
+                <button type="button" class="btn-fill btn btn-info text-secondary radius-3 px-0 py-2">選擇方案</button>
+            </a>
+            <a class="col-4" href="">
+                <button type="button" class="btn-fill btn btn-info text-secondary radius-3 px-0 py-2">填寫資料</button>
+            </a>
+            <a class="col-4" href="">
+                <button type="button" class="btn-fill btn btn-secondary text-light radius-3 px-0 py-2">完成預約</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="d-flex flex-column align-items-center">
+    <span class="material-icons icon-finish-size text-secondary mb-4">
+        check_circle_outline
+    </span>
+    <h3 class="h5 text-secondary text-center fw-bold mb-4">
+        已完成預約，以下是您的預約資訊:
+    </h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 offset-0 offset-sm-2 offset-md-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button  bg-secondary text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            預約資訊
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h3 class="h5 text-secondary text-start fw-bold mb-3">
+                                <span class="fs-6 text-success me-2">您預約的是</span>
+                                首次體驗課程-基礎
+                            </h3>
+                            <ul class="text-secondary">
+                                <li class="mb-2">上課預約報到日：2021/07/21</li>
+                                <li class="mb-2">預約人：Joanne Chen</li>
+                                <li class="mb-2">年齡：18 歲</li>
+                                <li class="mb-2">性別：女</li>
+                                <li class="mb-2">電子信箱：example123@gmail.com</li>
+                                <li class="mb-2">手機號碼：0912-345-678</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4 mb-12">
+    <div class="row">
+        <div class="col-12 col-md-4 offset-0 offset-md-4">
+            <h3 class="h5 text-secondary text-center fw-bold mb-2">
+                上課注意事項
+            </h3>
+            <p class="text-secondary mb-5">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。 如欲更改體驗時間請提前通知我們喔！</p>
+            <button type="button" class="btn btn-primary col-12 text-light py-2" onclick="location.href='./index.html'">返回首頁</button>
+        </div>
+    </div>
+</div>
