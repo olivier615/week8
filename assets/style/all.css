@@ -14479,7 +14479,7 @@ h1, .h1 {
 
 .banner {
   height: 100vh;
-  background: url(./dist/images/banner.jpeg) bottom center;
+  background: url(./assets/images/banner.jpeg) bottom center;
   background-size: cover;
 }
 
